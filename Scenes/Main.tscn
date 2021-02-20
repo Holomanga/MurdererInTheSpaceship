@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Code/Main.cs" type="Script" id=1]
 [ext_resource path="res://Impostor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Spaceship.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/GUI.tscn" type="PackedScene" id=4]
 
 [node name="Scene" type="Node2D"]
 script = ExtResource( 1 )
@@ -11,8 +10,3 @@ Impostor = ExtResource( 2 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 3 )]
 position = Vector2( -2.15186, -1.89272 )
-
-[node name="GUI" parent="." instance=ExtResource( 4 )]
-anchor_right = 1.0
-margin_right = 0.0
-margin_bottom = 0.0
