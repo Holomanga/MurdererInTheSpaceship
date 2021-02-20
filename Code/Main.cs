@@ -8,8 +8,6 @@ public class Main : Node2D
     // private string b = "text";
     [Export] public PackedScene Impostor;
 
-
-
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
